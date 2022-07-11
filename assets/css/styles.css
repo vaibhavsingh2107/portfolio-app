@@ -74,6 +74,10 @@ img{
   height: auto;
   display: block;
 }
+figcaption{
+  text-align: center;
+  margin: 5px;;
+}
 
 /*===== CLASS CSS ===== */
 .section-title{
@@ -288,17 +292,20 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__react{
   width: 80%;
+}
+.skills__html{
+  width: 90%;
 }
 .skills__css{
   width: 75%;
 }
 .skills__js{
-  width: 60%;
+  width: 70%;
 }
 .skills__ux{
-  width: 70%;
+  width: 80%;
 }
 .skills__img{
   border-radius: .5rem;
